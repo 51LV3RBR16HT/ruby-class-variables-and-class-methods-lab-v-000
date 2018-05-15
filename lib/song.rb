@@ -23,9 +23,9 @@ class Song
   #   @@genres.uniq # .uniq returns a new array by removing duplicate values in self
   # end
 
-  # def self.artists #return unique artists only
-  #   @@artists.uniq
-  # end
+  def self.artists #return unique artists only
+    @@artists.uniq
+  end
 
   def self.artist_count
     artist_count = {}
