@@ -18,7 +18,7 @@ class Song
   end
 
   def self.genres #return unique genres only
-    @@genres.uniq
+    @@genres
   end
 
   def self.artists #return unique artists only
