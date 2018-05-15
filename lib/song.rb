@@ -31,7 +31,7 @@ class Song
   # those artists
   end
 
-
+puts name
 
 
 end
