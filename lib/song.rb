@@ -29,6 +29,6 @@ class Song
 
   end
 
-Song.genre_count
+song.genre_count
 
 end
