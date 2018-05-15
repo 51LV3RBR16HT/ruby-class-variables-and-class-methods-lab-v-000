@@ -16,11 +16,11 @@ class Song
     @@count
   end
 
-  def genres #return unique genres only
+  def self.genres #return unique genres only
       @@genres
   end
 
-  def artists #return unique artists only
+  def self.artists #return unique artists only
     @@artists
   end
 
