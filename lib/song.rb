@@ -17,7 +17,8 @@ class Song
     @@count
   end
 
-  def self.genres #return unique genres only
+  def self.genres(artist) #return unique genres only
+    if genre.has_key?(artist)
     @@genres
   end
 
