@@ -23,8 +23,8 @@ class Song
     @@genres
   end
 
-  def self.artists(name, genre, artist) #return unique artists only
-    @@artists
+  def self.artists(name, genre) #return unique artists only
+    @@artists = artist
   end
 
   def artist_count #returns a hash in which the keys are the names of each genre
