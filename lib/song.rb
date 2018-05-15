@@ -19,7 +19,7 @@ class Song
 
   def self.genres(artist) #return unique genres only
     if genre.has_key?(artist)
-    @@genres
+    @@genres[artist] << name
   end
 
   def self.artists #return unique artists only
