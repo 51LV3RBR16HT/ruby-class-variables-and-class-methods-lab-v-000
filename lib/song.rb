@@ -18,7 +18,6 @@ class Song
 
   def genres #return unique genres only
       @@genres
-
   end
 
   def artists #return unique artists only
@@ -26,7 +25,6 @@ class Song
   end
 
   def artist_count #returns a hash in which the keys are the names of each genre
-
   end
 
 
