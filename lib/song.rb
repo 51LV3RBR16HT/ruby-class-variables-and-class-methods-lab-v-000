@@ -10,12 +10,13 @@ class Song
     @@count += 1
   end
 
-  def self.count(name, artist, genre)
+  def self.count
     @@count
   end
 
   def genres #return unique genres only
-    @@genres
+      @@genres
+
   end
 
   def artists #return unique artists only
