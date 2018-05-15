@@ -20,11 +20,11 @@ class Song
   end
 
   def self.genres #return unique genres only
-    @@genres.uniq #returns a new array by removing duplicate values in self
+    @@genres.uniq # .uniq returns a new array by removing duplicate values in self
   end
 
   def self.artists #return unique artists only
-    @@artists
+    @@artists.uniq
   end
 
   def artist_count #returns a hash in which the keys are the names of each genre
