@@ -14,7 +14,7 @@ class Song
     @@count
   end
 
-  def genres #return unique genres only
+  def genres(genre) #return unique genres only
       @@genres
 
   end
