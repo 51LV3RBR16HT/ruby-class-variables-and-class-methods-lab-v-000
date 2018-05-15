@@ -27,5 +27,8 @@ class Song
   def artist_count #returns a hash in which the keys are the names of each genre
   end
 
+  def genre_count
+  end
+
 
 end
