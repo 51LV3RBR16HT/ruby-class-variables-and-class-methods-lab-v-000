@@ -15,9 +15,9 @@ class Song
     @@genres << genre
   end
 
-  def self.count
-    @@count
-  end
+  # def self.count
+  #   @@count
+  # end
 
   def self.genres #return unique genres only
     @@genres.uniq # .uniq returns a new array by removing duplicate values in self
