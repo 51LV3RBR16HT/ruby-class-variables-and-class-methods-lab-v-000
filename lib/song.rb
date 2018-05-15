@@ -23,11 +23,20 @@ class Song
   #   @@genres.uniq # .uniq returns a new array by removing duplicate values in self
   # end
 
-  def self.artists #return unique artists only
-    @@artists.uniq
-  end
+  # def self.artists #return unique artists only
+  #   @@artists.uniq
+  # end
 
-  def artist_count #returns a hash in which the keys are the names of each genre
+  def self.artist_count
+    artist_count = {}
+    @@artists.each do |artist|
+      if artist_count[artist]
+        artist_count[artist] += 1
+      else
+        artist_count[artist] = 1
+      end
+    end
+    artist_count
   end
 
   def self.genre_count
